@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  }
+
+/****************   Nav Section **********************/
+nav {
+	background-color: #231942;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+nav a {
+  align-self: flex-end; 
+  color: white;
+}
+
+nav p{
+  align-self: center;
+  font-size: x-large;
+  color: white;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	display: flex;
+  background-color: #C9C1D9;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 15px;
+}
+/*********** Splash Page ************************/
+header {
+  background-color: #5E548E ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Allerta Stencil", sans-serif;
+  color: #F2E9E4;
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.address {
+ font-family: "Audiowide", sans-serif;
+}
+
+.tagline {
+  font-family: "Audiowide", sans-serif;
+}
+
+/************* Sections ********************/
+hr {
+  margin: 0;
+  border: 5px solid #B08FE6;
+}
+
+section h2{
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #8F99E6;
+}
+section h3{
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #8F99E6;
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section ul {
+  list-style:circle;
+}
+
+section a {
+  text-decoration: none;
+  color: #222222;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block; 
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      flex-direction: column;
+      border: 1px solid white;
+    }
+
+    .three-col {
+      grid-template-columns: 1fr;
+      align-items: center;
+      height: auto;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-size: 1rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+}
+/**************   Google Fonts   *****************/
+.allerta-stencil-regular {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-serif-regular-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-serif-bold-italic {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}

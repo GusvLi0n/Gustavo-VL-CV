@@ -118,6 +118,14 @@ section a:hover {
       border: 1px solid white;
     }
 
+    nav a {
+       font-size:smaller;
+       align-self: center ;
+    }
+    nav p{
+      font-size: small;
+    }
+
     .three-col {
       grid-template-columns: 1fr;
       align-items: center;
